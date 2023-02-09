@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color: #e7d8e6;
+    padding: 50px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.card{
+    width: 347px;
+    height: 165px;
+    background-color: #ccb2c4;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    transition: transform 0.3s;
+    padding: 30px;
+
+    -webkit-box-shadow: 21px -21px 23px 3px rgba(135, 117, 130, 0.73);
+    -moz-box-shadow: 21px -21px 23px 3px rgba(135, 117, 130, 0.73);
+    box-shadow: 21px -21px 23px 3px rgba(135, 117, 130, 0.73);
+}
+
+.number{
+    font-family: 'Poppins', sans-serif;
+    color: #5d505c;
+    font-size: 50px;
+    /*display: none;*/
+}
+.content{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #5d505c;
+    /*display: inline-block;*/
+    justify-content: center;
+    align-items: center;
+    transform: rotateY(180deg);
+}
+.title{
+    font-size: 20px;
+    color: #262a39;
+    font-weight: 600;
+    display: block;
+}
+.rotate{
+    transform: rotateY(180deg)
+}
+.hide{
+    display: none;
+}
+.signature{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.signature_img{
+    object-fit: cover;
+    width: 79px;
+
+}
